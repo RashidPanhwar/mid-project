@@ -16,12 +16,12 @@ const Footer = () => {
     return (
     <div className='px-10 py-3'>
     <div className='flex'>
-        <div className='py-10 px-8 lg:grid lg:grid-cols-3 justify-center items-center'>
-            <div className=' '>
-                <h3 className='text-xl text-white font-semibold flex items-center  '> 
+        <div className='py-10 px-8 lg:grid lg:grid-cols-3 lg:px-36 justify-center items-center'>
+            <div className=''>
+                <h3 className='text-xl lg:text-2xl text-white font-semibold flex items-center  '> 
                     <span className='text-color pr-5'> <PiStorefront size={25} /> </span> 
                     NFT MArketplace </h3>
-                <p className='text-lg font-normal leading-6 mt-5 text-white'>
+                <p className='text-sm font-normal leading-6 mt-5 text-white'>
                     NFT Marketplace UI created with anima for figma.
                 </p>
                 <p className='text-lg font-normal leading-6 mt-5 text-white'>
