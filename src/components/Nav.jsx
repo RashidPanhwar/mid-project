@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <div className='bg-[#2B2B2B]'>
       <div className='flex justify-between items-center text-white'>
-        <h3 className='text-2xl flex items-center ml-12 mt-8 mb-8 '> 
+        <h3 className='text-xl md:text-2xl flex items-center ml-5 md:ml-12 mt-8 mb-8 '> 
           <span className='px-4 text-color'> <PiStorefront size={32} /> </span> 
           NFT MArketplace </h3>
         <div className=' hidden lg:flex justify-center items-center gap-3 mr-12'>
